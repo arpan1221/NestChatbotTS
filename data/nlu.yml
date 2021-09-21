@@ -1,0 +1,166 @@
+version: "2.0"
+
+nlu:
+- intent: start
+  examples: |
+    - /start
+    - start
+    - Hi
+    - begin
+    - hello
+- intent: english
+  examples: |
+    - [english](language)
+    - [I want to continue in english](language)
+- intent: hindi
+  examples: |
+    - [hindi](language)
+    - [हिंदी में शुरू करें](language)
+- intent: product_assistance_support
+  examples: |
+    - product_assistance_support
+    - I want product assistance
+    - Need some Product support
+    - Product assistance and Support
+    - Support required
+- intent: hindi_product_assistance_support
+  examples: |
+    - hindi_product_assistance_support
+    - product ka support chahiye
+    - product assistance shuru kariye
+    - support ke saath chaliye
+    - प्रोडक्ट का सपोर्ट चाहिए
+    - उत्पाद सहायता शुरू करना
+    - सपोर्ट के साथ चलिये
+- intent: live_agent
+  examples: |
+    - live_agent
+    - live agent
+    - I want to speak to a live agent
+    - I want a 1-1 chat
+- intent: hindi_live_agent
+  examples: |
+    - hindi_live_agent
+    - live agent se baat karna chahte hai
+    - mai live agent se baat karunga
+    - live agent shuru kijiye
+    - मुझे 1-1 चैट चाहिए
+    - मई लाइव एजेंट से बात करूँगा
+    - लाइव एजेंट शुरू कीजिये
+- intent: feedback
+  examples: |
+    - feedback
+    - I would like to provide some feedback
+- intent: hindi_feedback
+  examples: |
+    - hindi_feedback
+    - Mai feedback dena chahta hu
+    - मई फीडबैक देना चाहता हु
+- intent: promotions
+  examples: |
+    - promotions
+    - I want to know about the promotions
+    - Please tell me more about the promotions
+- intent: hindi_promotions
+  examples: |
+    - hindi_promotions
+    - promotions ke baaare mai bataye
+    - promotions ka continue kijiye
+    - प्रोमोशंस के बाआरे मई बताये
+- intent: nest_camera
+  examples: |
+    - nest_camera
+    - nest camera
+    - I want to continue with Nest Camera
+- intent: hindi_nest_camera
+  examples: |
+    - hindi_nest_camera
+    - mujhe nest camera ke liye help chahiye
+    - मुझे नेस्ट कैमरा के लिए हेल्प चाहिए
+- intent: yes
+  examples: |
+    - yes
+    - yes i want to provide additional feedback
+    - yes I want to give some feedback
+- intent: hindi_yes
+  examples: |
+    - hindi_yes
+    - haa
+    - haa mujhe feedback dena hai
+    - हां मुझे फीडबैक देना है
+- intent: no
+  examples: |
+    - no
+    - no I dont want to provide feedback
+- intent: hindi_no
+  examples: |
+    - hindi_no
+    - nahi
+    - nahi mujhe feedback nahi dena hai
+    - नहीं मुझे फीडबैक नहीं देना है
+- intent: actual_data
+  examples: |
+    - This is my concern.
+    - I loved your service, thank you for the help.
+    - I found this service very useful.
+    - I think this can be improved.
+    - The interface is quite intuitive, great help.
+    - The customers prefer this product.
+    - I suggest to improve on this.
+- intent: setup
+  examples: |
+    - setup
+    - I want information on setup
+- intent: hindi_setup
+  examples: |
+    - hindi_setup
+    - Mujhe setup ke baare main jaanna hai
+    - setup kaise karte hai
+    - मुझे सेटअप के बारे में जानना है
+- intent: key_usps
+  examples: |
+    - key_usps
+    - I want information on Key USPs
+- intent: hindi_key_usps
+  examples: |
+    - hindi_key_usps
+    - Mujhe key usps ke baare main jaanna hai
+    - key usps ka information dijiye
+    - key usps kya hai?
+    - मुझे कीय ुस्प्स के बारे में जानना है
+- intent: factory_reset
+  examples: |
+    - factory_reset
+    - I want information on Factory Reset
+- intent: hindi_factory_reset
+  examples: |
+    - hindi_factory_reset
+    - Mujhe factory reset ke baare mai jaanna hai
+    - Reset kaise karte hai
+    - factory reset ka procedure kya hai
+    - मुझे फैक्ट्री रिसेट के बारे मे जानना है
+- intent: main_menu
+  examples: |
+    - main_menu
+    - main menu
+    - I want to go to the main menu
+- intent: hindi_main_menu
+  examples: |
+    - hindi_main_menu
+    - Main menu bhej dijiye
+    - main menu khol dijiye
+    - mujhe main menu par jaana hai
+    - मुझे मैं मेनू पर जाना है
+    - मैं मेनू भेज दीजिये
+    - मैं मेनू खोल दीजिये
+- intent: end_conversation
+  examples: |
+    - end_conversation
+    - end conversation
+    - I would like to end the conversation
+- intent: hindi_end_conversation
+  examples: |
+    - hindi_end_conversation
+    - conversation end kardo
+    - baat khatam kardijiye
+    - बातचीत खत्म करो

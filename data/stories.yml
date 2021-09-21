@@ -1,0 +1,116 @@
+version: "2.0"
+
+stories:
+
+- story: start
+  steps:
+  - intent: start
+  - action: utter_greet
+- story: english
+  steps:
+  - intent: english
+  - action: action_english
+- story: hindi
+  steps:
+  - intent: hindi
+  - action: action_hindi
+- story: product_assistance_support
+  steps: 
+  - intent: product_assistance_support
+  - action: action_select_product
+- story: hindi_product_assistance_support
+  steps: 
+  - intent: hindi_product_assistance_support
+  - action: action_select_product
+- story: live_agent
+  steps:
+  - intent: live_agent
+  - action: action_live_agent
+- story: hindi_live_agent
+  steps:
+  - intent: hindi_live_agent
+  - action: action_live_agent
+- story: feedback
+  steps:
+  - intent: feedback
+  - action: action_feedback
+- story: hindi_feedback
+  steps:
+  - intent: hindi_feedback
+  - action: action_feedback
+- story: promotions
+  steps:
+  - intent: promotions
+  - action: action_promotions
+- story: hindi_promotions
+  steps:
+  - intent: hindi_promotions
+  - action: action_promotions
+- story: nest_camera
+  steps:
+  - intent: nest_camera
+  - action: action_nest_camera
+- story: hindi_nest_camera
+  steps:
+  - intent: hindi_nest_camera
+  - action: action_nest_camera
+- story: yes
+  steps: 
+  - intent: yes
+  - action: utter_type
+- story: hindi_yes
+  steps: 
+  - intent: hindi_yes
+  - action: utter_type
+- story: no
+  steps:
+  - intent: no
+  - action: action_end_conversation
+- story: hindi_no
+  steps:
+  - intent: hindi_no
+  - action: action_end_conversation
+- story: actual_data
+  steps:
+  - intent: actual_data
+  - action: action_database
+- story: setup
+  steps:
+  - intent: setup
+  - action: action_setup
+- story: hindi_setup
+  steps:
+  - intent: hindi_setup
+  - action: action_setup
+- story: key_usps
+  steps:
+  - intent: key_usps
+  - action: action_key_usps
+- story: hindi_key_usps
+  steps:
+  - intent: hindi_key_usps
+  - action: action_key_usps
+- story: factory_reset
+  steps: 
+  - intent: factory_reset
+  - action: action_factory_reset
+- story: hindi_factory_reset
+  steps: 
+  - intent: hindi_factory_reset
+  - action: action_factory_reset
+- story: main_menu
+  steps:
+  - intent: main_menu
+  - action: action_main_menu
+- story: hindi_main_menu
+  steps:
+  - intent: hindi_main_menu
+  - action: action_main_menu
+- story: end_conversation
+  steps: 
+  - intent: end_conversation
+  - action: action_end_conversation
+- story: hindi_end_conversation
+  steps: 
+  - intent: hindi_end_conversation
+  - action: action_end_conversation
