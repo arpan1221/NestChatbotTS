@@ -1,0 +1,67 @@
+version: "2.0"
+
+intents:
+  - start
+  - english
+  - hindi
+  - product_assistance_support
+  - hindi_product_assistance_support
+  - live_agent
+  - hindi_live_agent
+  - feedback
+  - hindi_feedback
+  - promotions
+  - hindi_promotions
+  - nest_camera
+  - hindi_nest_camera
+  - nest_doorbell
+  - yes
+  - hindi_yes
+  - no
+  - hindi_no
+  - actual_data
+  - setup
+  - hindi_setup
+  - key_usps
+  - hindi_key_usps
+  - factory_reset
+  - hindi_factory_reset
+  - main_menu
+  - hindi_main_menu
+  - end_conversation
+  - hindi_end_conversation
+entities:
+- language
+slots:
+  language:
+    type: text
+responses:
+  utter_type:
+  - text: "Please type your concerns !"
+#  utter_thanks: 
+#  - text: "Hope this Service was beneficial, ping me again whenever required!!!"
+  utter_greet:
+  - text: "Hi! I am the Nest Chatbot choose a language to begin"
+    buttons:
+    - title: "English"
+      payload: 'english'
+    - title: "हिंदी"
+      payload: 'hindi'
+actions:
+- action_english
+- action_hindi
+- action_select_product
+- action_live_agent
+- action_feedback
+- action_promotions
+- action_nest_camera
+- action_nest_doorbell
+- action_setup
+- action_key_usps
+- action_factory_reset
+- action_database
+- action_main_menu
+- action_end_conversation
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
