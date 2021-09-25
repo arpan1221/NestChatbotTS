@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: start
   examples: |
@@ -16,6 +15,8 @@ nlu:
   examples: |
     - [hindi](language)
     - [हिंदी में शुरू करें](language)
+    - [Hindi](language)
+    - [Hindi](language) mai continue kariye
 - intent: product_assistance_support
   examples: |
     - product_assistance_support
@@ -32,6 +33,7 @@ nlu:
     - प्रोडक्ट का सपोर्ट चाहिए
     - उत्पाद सहायता शुरू करना
     - सपोर्ट के साथ चलिये
+    - Product assistance chahiye
 - intent: live_agent
   examples: |
     - live_agent
@@ -72,11 +74,13 @@ nlu:
     - nest_camera
     - nest camera
     - I want to continue with Nest Camera
+    - Nest camera
 - intent: hindi_nest_camera
   examples: |
     - hindi_nest_camera
     - mujhe nest camera ke liye help chahiye
     - मुझे नेस्ट कैमरा के लिए हेल्प चाहिए
+    - Nest camera ka information chahiye
 - intent: number
   examples: |
     - [1](number)
@@ -97,6 +101,7 @@ nlu:
     - Kudos !
     - this is my feedback
     - Feedback is this
+    - Great service !!!
 - intent: hindi_actual_data
   examples: |
     - kaafi accha service hai badhiya content
@@ -141,6 +146,9 @@ nlu:
     - Mujhe setup ke baare main jaanna hai
     - setup kaise karte hai
     - मुझे सेटअप के बारे में जानना है
+    - Setup kaise karte hai
+    - Setup ka procedure kya hai
+    - Setup kaise karte hai?
 - intent: key_usps
   examples: |
     - key_usps
@@ -163,6 +171,7 @@ nlu:
     - Reset kaise karte hai
     - factory reset ka procedure kya hai
     - मुझे फैक्ट्री रिसेट के बारे मे जानना है
+    - Factory reset ka procedure kya hai
 - intent: infosheet
   examples: |
     - infosheet
