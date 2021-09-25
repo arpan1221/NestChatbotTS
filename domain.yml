@@ -1,0 +1,146 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- start:
+    use_entities: true
+- english:
+    use_entities: true
+- hindi:
+    use_entities: true
+- product_assistance_support:
+    use_entities: true
+- hindi_product_assistance_support:
+    use_entities: true
+- live_agent:
+    use_entities: true
+- hindi_live_agent:
+    use_entities: true
+- feedback:
+    use_entities: true
+- hindi_feedback:
+    use_entities: true
+- promotions:
+    use_entities: true
+- hindi_promotions:
+    use_entities: true
+- nest_camera:
+    use_entities: true
+- hindi_nest_camera:
+    use_entities: true
+- nest_doorbell:
+    use_entities: true
+- number:
+    use_entities: true
+- actual_data
+- hindi_actual_data
+- yes:
+    use_entities: true
+- hindi_yes:
+    use_entities: true
+- no:
+    use_entities: true
+- hindi_no:
+    use_entities: true
+- setup:
+    use_entities: true
+- hindi_setup:
+    use_entities: true
+- key_usps:
+    use_entities: true
+- hindi_key_usps:
+    use_entities: true
+- factory_reset:
+    use_entities: true
+- hindi_factory_reset:
+    use_entities: true
+- infosheet:
+    use_entities: true
+- hindi_infosheet:
+    use_entities: true
+- useful_videos:
+    use_entities: true
+- hindi_useful_videos:
+    use_entities: true
+- tata_sky_subscription_plan:
+    use_entities: true
+- hindi_tata_sky_subscription_plan:
+    use_entities: true
+- nest_camera_specs:
+    use_entities: true
+- hindi_nest_camera_specs:
+    use_entities: true
+- whats_in_the_box:
+    use_entities: true
+- hindi_whats_in_the_box:
+    use_entities: true
+- technical_terms:
+    use_entities: true
+- hindi_technical_terms:
+    use_entities: true
+- main_menu:
+    use_entities: true
+- hindi_main_menu:
+    use_entities: true
+- nest_cam_menu:
+    use_entities: true
+- hindi_nest_cam_menu:
+    use_entities: true
+- end_conversation:
+    use_entities: true
+- hindi_end_conversation:
+    use_entities: true
+entities:
+- language
+- number
+slots:
+  language:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  number:
+    type: rasa.shared.core.slots.FloatSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    max_value: 1.0
+    min_value: 0.0
+responses:
+  utter_type:
+  - text: Please type your concerns !
+  utter_greet:
+  - buttons:
+    - payload: english
+      title: English
+    - payload: hindi
+      title: हिंदी
+    text: Hi! I am the Nest Chatbot choose a language to begin
+actions:
+- action_english
+- action_hindi
+- action_select_product
+- action_live_agent
+- action_feedback
+- action_promotions
+- action_nest_camera
+- action_nest_doorbell
+- action_setup
+- action_key_usps
+- action_factory_reset
+- action_infosheet
+- action_useful_videos
+- action_tata_sky_subscription_plan
+- action_nest_camera_specs
+- action_whats_in_the_box
+- action_technical_terms
+- action_number
+- action_database
+- action_main_menu
+- action_nest_cam_menu
+- action_end_conversation
+forms: {}
+e2e_actions: []

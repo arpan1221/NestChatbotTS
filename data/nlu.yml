@@ -1,0 +1,275 @@
+version: "2.0"
+
+nlu:
+- intent: start
+  examples: |
+    - /start
+    - start
+    - Hi
+    - begin
+    - hello
+- intent: english
+  examples: |
+    - [english](language)
+    - [I want to continue in english](language)
+- intent: hindi
+  examples: |
+    - [hindi](language)
+    - [हिंदी में शुरू करें](language)
+- intent: product_assistance_support
+  examples: |
+    - product_assistance_support
+    - I want product assistance
+    - Need some Product support
+    - Product assistance and Support
+    - Support required
+- intent: hindi_product_assistance_support
+  examples: |
+    - hindi_product_assistance_support
+    - product ka support chahiye
+    - product assistance shuru kariye
+    - support ke saath chaliye
+    - प्रोडक्ट का सपोर्ट चाहिए
+    - उत्पाद सहायता शुरू करना
+    - सपोर्ट के साथ चलिये
+- intent: live_agent
+  examples: |
+    - live_agent
+    - live agent
+    - I want to speak to a live agent
+    - I want a 1-1 chat
+- intent: hindi_live_agent
+  examples: |
+    - hindi_live_agent
+    - live agent se baat karna chahte hai
+    - mai live agent se baat karunga
+    - live agent shuru kijiye
+    - मुझे 1-1 चैट चाहिए
+    - मई लाइव एजेंट से बात करूँगा
+    - लाइव एजेंट शुरू कीजिये
+- intent: feedback
+  examples: |
+    - feedback
+    - I would like to provide some feedback
+- intent: hindi_feedback
+  examples: |
+    - hindi_feedback
+    - Mai feedback dena chahta hu
+    - मई फीडबैक देना चाहता हु
+- intent: promotions
+  examples: |
+    - promotions
+    - I want to know about the promotions
+    - Please tell me more about the promotions
+- intent: hindi_promotions
+  examples: |
+    - hindi_promotions
+    - promotions ke baaare mai bataye
+    - promotions ka continue kijiye
+    - प्रोमोशंस के बाआरे मई बताये
+- intent: nest_camera
+  examples: |
+    - nest_camera
+    - nest camera
+    - I want to continue with Nest Camera
+- intent: hindi_nest_camera
+  examples: |
+    - hindi_nest_camera
+    - mujhe nest camera ke liye help chahiye
+    - मुझे नेस्ट कैमरा के लिए हेल्प चाहिए
+- intent: number
+  examples: |
+    - [1](number)
+    - [2](number)
+    - [3](number)
+    - [4](number)
+    - [5](number)
+- intent: actual_data
+  examples: |
+    - Really Great Service! Well Done.
+    - Quite useful service
+    - these are the possible improvements
+    - The time lag is a lot
+    - Response is very quick
+    - Great user interface
+    - Impressive content availability
+    - Great installation service
+    - Kudos !
+    - this is my feedback
+    - Feedback is this
+- intent: hindi_actual_data
+  examples: |
+    - kaafi accha service hai badhiya content
+    - shaandar hai useful hai
+    - yeh mera suggestion hai
+    - iss tareekhe se design badaliye
+    - response jaldi deta hai
+    - saara jo bhi content hai voh acche se diya hai
+    - प्रभावशाली सामग्री उपलब्धता
+    - महान स्थापना सेवा
+    - प्रशंसा !
+    - यह मेरी प्रतिक्रिया है
+    - प्रतिक्रिया यह है
+- intent: yes
+  examples: |
+    - yes
+    - yes i want to provide additional feedback
+    - yes I want to give some feedback
+- intent: hindi_yes
+  examples: |
+    - hindi_yes
+    - haa
+    - haa mujhe feedback dena hai
+    - हां मुझे फीडबैक देना है
+- intent: no
+  examples: |
+    - no
+    - no I dont want to provide feedback
+- intent: hindi_no
+  examples: |
+    - hindi_no
+    - nahi
+    - nahi mujhe feedback nahi dena hai
+    - नहीं मुझे फीडबैक नहीं देना है
+- intent: setup
+  examples: |
+    - setup
+    - I want information on setup
+- intent: hindi_setup
+  examples: |
+    - hindi_setup
+    - Mujhe setup ke baare main jaanna hai
+    - setup kaise karte hai
+    - मुझे सेटअप के बारे में जानना है
+- intent: key_usps
+  examples: |
+    - key_usps
+    - I want information on Key USPs
+- intent: hindi_key_usps
+  examples: |
+    - hindi_key_usps
+    - Mujhe key usps ke baare main jaanna hai
+    - key usps ka information dijiye
+    - key usps kya hai?
+    - मुझे कीय ुस्प्स के बारे में जानना है
+- intent: factory_reset
+  examples: |
+    - factory_reset
+    - I want information on Factory Reset
+- intent: hindi_factory_reset
+  examples: |
+    - hindi_factory_reset
+    - Mujhe factory reset ke baare mai jaanna hai
+    - Reset kaise karte hai
+    - factory reset ka procedure kya hai
+    - मुझे फैक्ट्री रिसेट के बारे मे जानना है
+- intent: infosheet
+  examples: |
+    - infosheet
+    - I want the infosheet for nest cam
+    - Need the infosheet
+- intent: hindi_infosheet
+  examples: |
+    - hindi_infosheet
+    - Mujhe Infosheet ka pdf chahiye
+    - Infosheet de dijiye
+    - मुझे इन्फोशीट का पीडीएफ चाहिए
+- intent: useful_videos
+  examples: |
+    - useful_videos
+    - I want to watch the videos
+    - I want some useful videos
+    - Can I see some videos on nest cam
+- intent: hindi_useful_videos
+  examples: |
+    - hindi_useful_videos
+    - useful videos dikhaiye
+    - nest camera ka videos dijiye
+    - उपयोगी वीडियो देखें
+- intent: tata_sky_subscription_plan
+  examples: |
+    - tata_sky_subscription_plan
+    - I want to know about the subscription plan
+    - What subscription plans are available for tata sky
+    - subscription plans for tata sky
+- intent: hindi_tata_sky_subscription_plan
+  examples: |
+    - hindi_tata_sky_subscription_plan
+    - subscription ke baarein mai batayien
+    - tata sky ka subscription plan kya hai
+    - सदस्यता के बारे में मैं बता
+- intent: nest_camera_specs
+  examples: |
+    - nest_camera_specs
+    - I want the specifications for nest camera
+    - What are the specificatios for nest camera
+    - Nest camera specifications
+- intent: hindi_nest_camera_specs
+  examples: |
+    - hindi_nest_camera_specs
+    - nest camera ka specs dijiye
+    - nest camera mai specs kya kya hai
+    - nest camera ka kya specifications hai?
+    - नेस्ट कैमरा का क्या स्पेसिफिकेशंस है?
+- intent: whats_in_the_box
+  examples: |
+    - whats_in_the_box
+    - I want to know the contents of the nest camera box
+    - What all is available inside the box
+    - What's inside the box?
+- intent: hindi_whats_in_the_box
+  examples: |
+    - hindi_whats_in_the_box
+    - Box mai kya kya milta hai?
+    - nest cam ke box mai kya milta hai?
+    - बॉक्स मैं क्या मिला है?
+- intent: technical_terms
+  examples: |
+    - technical_terms
+    - Want an explanation for the technical terms
+    - techincal term definitions
+    - techinal terms
+- intent: hindi_technical_terms
+  examples: |
+    - hindi_technical_terms
+    - kya kya technical terms hai?
+    - takniki terms dijiye
+    - क्या क्या तकनीकी शब्द है?
+- intent: main_menu
+  examples: |
+    - main_menu
+    - main menu
+    - I want to go to the main menu
+- intent: hindi_main_menu
+  examples: |
+    - hindi_main_menu
+    - Main menu bhej dijiye
+    - main menu khol dijiye
+    - mujhe main menu par jaana hai
+    - मुझे मैं मेनू पर जाना है
+    - मैं मेनू भेज दीजिये
+    - मैं मेनू खोल दीजिये
+- intent: nest_cam_menu
+  examples: |
+    - nest_cam_menu
+    - I want the Nest camera menu back
+    - go to the nest cam menu
+    - Nest camera menu please
+- intent: hindi_nest_cam_menu
+  examples: |
+    - hindi_nest_cam_menu
+    - nest camera ka menu de dijiye
+    - camera waala menu dikhado
+    - nest waala menu dedo
+    - नेस्ट कैमरा का मेनू दे दिजिये
+- intent: end_conversation
+  examples: |
+    - end_conversation
+    - end conversation
+    - I would like to end the conversation
+- intent: hindi_end_conversation
+  examples: |
+    - hindi_end_conversation
+    - conversation end kardo
+    - baat khatam kardijiye
+    - बातचीत खत्म करो
