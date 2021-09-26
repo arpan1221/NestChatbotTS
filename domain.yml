@@ -118,7 +118,7 @@ responses:
       title: English
     - payload: hindi
       title: हिंदी
-    text: Hi! I am the Nest Chatbot choose a language to begin
+    text: "Hi! I am the Tata Sky Field Assistant.\nChoose a language to begin"
 actions:
 - action_english
 - action_hindi
