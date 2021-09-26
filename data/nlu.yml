@@ -11,6 +11,7 @@ nlu:
   examples: |
     - [english](language)
     - [I want to continue in english](language)
+    - [English](language)
 - intent: hindi
   examples: |
     - [hindi](language)
@@ -63,6 +64,7 @@ nlu:
     - promotions
     - I want to know about the promotions
     - Please tell me more about the promotions
+    - Promotions
 - intent: hindi_promotions
   examples: |
     - hindi_promotions
@@ -102,6 +104,12 @@ nlu:
     - this is my feedback
     - Feedback is this
     - Great service !!!
+    - great service, well done
+    - can do better
+    - great service. well done [2](number).
+    - great service. well done
+    - Useful service !
+    - feedback test 26-9-1
 - intent: hindi_actual_data
   examples: |
     - kaafi accha service hai badhiya content
@@ -149,10 +157,12 @@ nlu:
     - Setup kaise karte hai
     - Setup ka procedure kya hai
     - Setup kaise karte hai?
+    - setup kaise karte hain
 - intent: key_usps
   examples: |
     - key_usps
     - I want information on Key USPs
+    - show the key usps
 - intent: hindi_key_usps
   examples: |
     - hindi_key_usps
@@ -160,6 +170,7 @@ nlu:
     - key usps ka information dijiye
     - key usps kya hai?
     - मुझे कीय ुस्प्स के बारे में जानना है
+    - key usp kya hai
 - intent: factory_reset
   examples: |
     - factory_reset
@@ -172,41 +183,64 @@ nlu:
     - factory reset ka procedure kya hai
     - मुझे फैक्ट्री रिसेट के बारे मे जानना है
     - Factory reset ka procedure kya hai
+    - reset kaise karte hai
+    - factory reset kaise karte hai
 - intent: infosheet
   examples: |
     - infosheet
     - I want the infosheet for nest cam
     - Need the infosheet
+    - give me the infosheet
+    - pls give infosheet
+    - pelase share the infosheet
+    - i need the infosheet
+    - I want yje infosheet
 - intent: hindi_infosheet
   examples: |
     - hindi_infosheet
     - Mujhe Infosheet ka pdf chahiye
     - Infosheet de dijiye
     - मुझे इन्फोशीट का पीडीएफ चाहिए
+    - infosheet dijiye
 - intent: useful_videos
   examples: |
     - useful_videos
     - I want to watch the videos
     - I want some useful videos
     - Can I see some videos on nest cam
+    - videos
+    - show me videos
 - intent: hindi_useful_videos
   examples: |
     - hindi_useful_videos
     - useful videos dikhaiye
     - nest camera ka videos dijiye
     - उपयोगी वीडियो देखें
+    - show me the videos
 - intent: tata_sky_subscription_plan
   examples: |
     - tata_sky_subscription_plan
     - I want to know about the subscription plan
     - What subscription plans are available for tata sky
     - subscription plans for tata sky
+    - what are the subscription plans
+    - Subscription plans kya hai?
 - intent: hindi_tata_sky_subscription_plan
   examples: |
     - hindi_tata_sky_subscription_plan
     - subscription ke baarein mai batayien
     - tata sky ka subscription plan kya hai
     - सदस्यता के बारे में मैं बता
+    - subscription plans kya hai
+    - kya plans hai
+    - plans kya hain
+    - mujhe subscription plans chahiye
+    - i want subscription plans
+    - plans kya kya hai?
+    - Mujhe subscription plan chahiye
+    - Subscription plan kya hai?
+    - Mujhe subscription plan chahiye?
+    - Mujhe tatasky subscription plans chahiye
 - intent: nest_camera_specs
   examples: |
     - nest_camera_specs
