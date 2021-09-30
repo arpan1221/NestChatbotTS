@@ -110,6 +110,10 @@ nlu:
     - great service. well done
     - Useful service !
     - feedback test 26-9-1
+    - great installation service, well done!
+    - great installation service, well done
+    - great service, well done [2](number)
+    - Random
 - intent: hindi_actual_data
   examples: |
     - kaafi accha service hai badhiya content
@@ -195,6 +199,8 @@ nlu:
     - pelase share the infosheet
     - i need the infosheet
     - I want yje infosheet
+    - i want the infosheet
+    - I want the infosheet
 - intent: hindi_infosheet
   examples: |
     - hindi_infosheet
@@ -210,6 +216,9 @@ nlu:
     - Can I see some videos on nest cam
     - videos
     - show me videos
+    - show useful videos
+    - show videos
+    - show me useful videos
 - intent: hindi_useful_videos
   examples: |
     - hindi_useful_videos
@@ -241,6 +250,8 @@ nlu:
     - Subscription plan kya hai?
     - Mujhe subscription plan chahiye?
     - Mujhe tatasky subscription plans chahiye
+    - Plans kya hai
+    - Subscription plan hai
 - intent: nest_camera_specs
   examples: |
     - nest_camera_specs
