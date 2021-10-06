@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: start
   examples: |
@@ -142,6 +141,9 @@ nlu:
     - infosheet
     - I want the infosheet for nest cam
     - Need the infosheet
+    - give me the infosheet
+    - i want the infosheet
+    - pls give infosheet
 - intent: hindi_infosheet
   examples: |
     - hindi_infosheet
@@ -154,6 +156,10 @@ nlu:
     - I want to watch the videos
     - I want some useful videos
     - Can I see some videos on nest cam
+    - show me useful videos
+    - show useful videos
+    - show videos
+    - show me videos
 - intent: hindi_useful_videos
   examples: |
     - hindi_useful_videos
@@ -172,6 +178,7 @@ nlu:
     - subscription ke baarein mai batayien
     - tata sky ka subscription plan kya hai
     - सदस्यता के बारे में मैं बता
+    - mujhe subscription plans chahiye
 - intent: nest_camera_specs
   examples: |
     - nest_camera_specs
@@ -259,3 +266,6 @@ nlu:
     - start live agent chat from telegram to telegram
     - telegram to telegram
     - Let's do telegram to tele
+- intent: actual_data
+  examples: |
+    - great installation service, well done
