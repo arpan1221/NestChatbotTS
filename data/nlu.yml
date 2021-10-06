@@ -11,10 +11,12 @@ nlu:
   examples: |
     - [english](language)
     - [I want to continue in english](language)
+    - [English](language)
 - intent: hindi
   examples: |
     - [hindi](language)
     - [हिंदी में शुरू करें](language)
+    - [Hindi](language)
 - intent: product_assistance_support
   examples: |
     - product_assistance_support
@@ -31,12 +33,15 @@ nlu:
     - प्रोडक्ट का सपोर्ट चाहिए
     - उत्पाद सहायता शुरू करना
     - सपोर्ट के साथ चलिये
+    - Product assistance chahiye
+    - [Hindi](language) mai continue kariye
 - intent: live_agent
   examples: |
     - live_agent
     - live agent
     - I want to speak to a live agent
     - I want a 1-1 chat
+    - feedback test 26-9-1
 - intent: hindi_live_agent
   examples: |
     - hindi_live_agent
@@ -60,6 +65,7 @@ nlu:
     - promotions
     - I want to know about the promotions
     - Please tell me more about the promotions
+    - Promotions
 - intent: hindi_promotions
   examples: |
     - hindi_promotions
@@ -71,11 +77,13 @@ nlu:
     - nest_camera
     - nest camera
     - I want to continue with Nest Camera
+    - Nest camera
 - intent: hindi_nest_camera
   examples: |
     - hindi_nest_camera
     - mujhe nest camera ke liye help chahiye
     - मुझे नेस्ट कैमरा के लिए हेल्प चाहिए
+    - Nest camera ka information chahiye
 - intent: number
   examples: |
     - [1](number)
@@ -114,10 +122,14 @@ nlu:
     - Mujhe setup ke baare main jaanna hai
     - setup kaise karte hai
     - मुझे सेटअप के बारे में जानना है
+    - setup kaise karte hain
+    - Setup kaise karte hai
+    - Setup ka procedure kya hai
 - intent: key_usps
   examples: |
     - key_usps
     - I want information on Key USPs
+    - show the key usps
 - intent: hindi_key_usps
   examples: |
     - hindi_key_usps
@@ -125,6 +137,7 @@ nlu:
     - key usps ka information dijiye
     - key usps kya hai?
     - मुझे कीय ुस्प्स के बारे में जानना है
+    - key usp kya hai
 - intent: factory_reset
   examples: |
     - factory_reset
@@ -136,6 +149,9 @@ nlu:
     - Reset kaise karte hai
     - factory reset ka procedure kya hai
     - मुझे फैक्ट्री रिसेट के बारे मे जानना है
+    - reset kaise karte hai
+    - factory reset kaise karte hai
+    - Factory reset ka procedure kya hai
 - intent: infosheet
   examples: |
     - infosheet
@@ -144,12 +160,17 @@ nlu:
     - give me the infosheet
     - i want the infosheet
     - pls give infosheet
+    - I want the infosheet
+    - pelase share the infosheet
+    - i need the infosheet
+    - I want yje infosheet
 - intent: hindi_infosheet
   examples: |
     - hindi_infosheet
     - Mujhe Infosheet ka pdf chahiye
     - Infosheet de dijiye
     - मुझे इन्फोशीट का पीडीएफ चाहिए
+    - infosheet dijiye
 - intent: useful_videos
   examples: |
     - useful_videos
@@ -160,18 +181,22 @@ nlu:
     - show useful videos
     - show videos
     - show me videos
+    - videos
 - intent: hindi_useful_videos
   examples: |
     - hindi_useful_videos
     - useful videos dikhaiye
     - nest camera ka videos dijiye
     - उपयोगी वीडियो देखें
+    - show me the videos
 - intent: tata_sky_subscription_plan
   examples: |
     - tata_sky_subscription_plan
     - I want to know about the subscription plan
     - What subscription plans are available for tata sky
     - subscription plans for tata sky
+    - Subscription plans kya hai?
+    - Mujhe tatasky subscription plans chahiye
 - intent: hindi_tata_sky_subscription_plan
   examples: |
     - hindi_tata_sky_subscription_plan
@@ -179,6 +204,17 @@ nlu:
     - tata sky ka subscription plan kya hai
     - सदस्यता के बारे में मैं बता
     - mujhe subscription plans chahiye
+    - Plans kya hai
+    - Subscription plan hai
+    - what are the subscription plans
+    - subscription plans kya hai
+    - kya plans hai
+    - plans kya hain
+    - i want subscription plans
+    - plans kya kya hai?
+    - Mujhe subscription plan chahiye
+    - Subscription plan kya hai?
+    - Mujhe subscription plan chahiye?
 - intent: nest_camera_specs
   examples: |
     - nest_camera_specs
@@ -269,3 +305,7 @@ nlu:
 - intent: actual_data
   examples: |
     - great installation service, well done
+    - great service. well done [2](number).
+    - great service. well done
+    - Useful service !
+    - Really Great Service! Well Done.
