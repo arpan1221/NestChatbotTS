@@ -35,8 +35,6 @@ intents:
     use_entities: true
 - number:
     use_entities: true
-- actual_data
-- hindi_actual_data
 - yes:
     use_entities: true
 - hindi_yes:
@@ -93,10 +91,15 @@ intents:
     use_entities: true
 - hindi_end_conversation:
     use_entities: true
+- telewhat
+- teletele
 entities:
 - language
 - number
+- feed_back
 slots:
+  feed_back:
+    type: rasa.shared.core.slots.TextSlot
   language:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
@@ -118,7 +121,9 @@ responses:
       title: English
     - payload: hindi
       title: हिंदी
-    text: "Hi! I am the Tata Sky Field Assistant.\nChoose a language to begin"
+    text: |-
+      Hi! I am the Tata Sky Field Assistant.
+      Choose a language to begin
 actions:
 - action_english
 - action_hindi
@@ -142,5 +147,12 @@ actions:
 - action_main_menu
 - action_nest_cam_menu
 - action_end_conversation
-forms: {}
+- action_tele_what
+- action_tele_tele
+forms: 
+  feedback_form:
+    required_slots:
+        feed_back:
+        - type: from_text
+          intent: None
 e2e_actions: []
