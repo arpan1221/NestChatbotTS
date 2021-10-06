@@ -58,22 +58,19 @@ stories:
   steps:
   - intent: number
   - action: action_number
-- story: actual_data
-  steps: 
-  - intent: actual_data
-  - action: action_database
-- story: hindi_actual_data
-  steps: 
-  - intent: hindi_actual_data
-  - action: action_database
 - story: yes
   steps: 
   - intent: yes
   - action: utter_type
+  - action: feedback_form
+  - active_loop: feedback_form
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: action_database
 - story: hindi_yes
   steps: 
   - intent: hindi_yes
-  - action: utter_type
+  - action: action_database
 - story: no
   steps:
   - intent: no
@@ -178,3 +175,11 @@ stories:
   steps: 
   - intent: hindi_end_conversation
   - action: action_end_conversation
+- story: telewhat
+  steps:
+  - intent: telewhat
+  - action: action_tele_what
+- story: teletele
+  steps:
+  - intent: teletele
+  - action: action_tele_tele
